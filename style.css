@@ -705,6 +705,9 @@ body {
   border-bottom: 1px solid #4d4d4d;
 }
 .main .slider-section {
+  background: #1f1e28;
+  padding-top: 30px;
+  padding-bottom: 60px;
   text-align: center;
 }
 .main .slider-section > p {
@@ -1765,6 +1768,9 @@ body {
   }
   .main .benefits-section .big-container .benefits-section-content .benefits-section-menu .benefits-section-subitem.active {
     height: auto;
+  }
+  .main .slider-section {
+    padding-bottom: 30px;
   }
   .main .slider-section > p {
     font-family: "Exo 2", sans-serif;

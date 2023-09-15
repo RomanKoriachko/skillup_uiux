@@ -605,6 +605,9 @@ body {
         }
     }
     .slider-section {
+        background: #1f1e28;
+        padding-top: 30px;
+        padding-bottom: 60px;
         text-align: center;
         > p {
             @include fonts.h2();
@@ -1767,6 +1770,7 @@ body {
             }
         }
         .slider-section {
+            padding-bottom: 30px;
             > p {
                 @include fonts.mobileH1();
                 text-align: left;
