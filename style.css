@@ -56,7 +56,6 @@ table {
 body {
   font-family: "Exo 2", sans-serif;
   background: #17161f;
-  color: #ffffff;
 }
 
 .container {
@@ -143,6 +142,9 @@ body {
   border-color: #fa7a63;
 }
 
+.main {
+  color: #ffffff;
+}
 .main .review-section {
   background-color: #1f1e28;
   padding: 80px 0px;
@@ -784,7 +786,7 @@ body {
   align-items: center;
 }
 .main .career-section .career-section-wrapper .career-section-text {
-  width: 380px;
+  width: 480px;
 }
 .main .career-section .career-section-wrapper .career-section-text p:nth-child(1) {
   font-family: "Exo 2", sans-serif;
@@ -1026,19 +1028,21 @@ body {
 }
 .main .form-section .form-section-wrapper .form-wrapper {
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 1fr 1.4fr 1fr 1fr;
+}
+.main .form-section .form-section-wrapper .form-wrapper .form-input-wrapper {
+  margin-bottom: 20px;
 }
 .main .form-section .form-section-wrapper .form-wrapper .form-input {
   width: 490px;
   height: 48px;
+  padding: 0px 50px;
   border-radius: 8px;
-  margin-bottom: 20px;
   font-family: "Exo 2", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #4d4d4d;
-  padding: 0px 20px;
 }
 .main .form-section .form-section-wrapper .form-wrapper .form-input::-moz-placeholder {
   font-family: "Exo 2", sans-serif;
@@ -1053,6 +1057,11 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #4d4d4d;
+}
+.main .form-section .form-section-wrapper .form-wrapper .form-phone-number-output {
+  color: white;
+  margin-top: 10px;
+  line-height: 145%;
 }
 .main .form-section .form-section-wrapper .form-wrapper button {
   width: 184px;
@@ -1077,7 +1086,16 @@ body {
   background-color: #fa7a63;
   border-color: #fa7a63;
 }
+.main .form-section .form-section-wrapper .form-wrapper .iti__country-list {
+  color: #4d4d4d;
+}
+.main .form-section .form-section-wrapper .form-wrapper .iti-mobile .iti__country-list {
+  color: #4d4d4d;
+}
 
+.footer {
+  color: #ffffff;
+}
 .footer .footer-wrapper .contacts-block {
   padding: 41px 0px;
 }
@@ -1908,6 +1926,9 @@ body {
   .main .form-section .form-section-wrapper .form-wrapper .form-input {
     width: 100%;
     margin-bottom: 8px;
+  }
+  .main .form-section .form-section-wrapper .form-wrapper .iti {
+    width: 100%;
   }
   .main .form-section .form-section-wrapper .form-wrapper button {
     width: 100%;

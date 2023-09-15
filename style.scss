@@ -27,7 +27,6 @@
 body {
     font-family: "Exo 2", sans-serif;
     background: #17161f;
-    color: #ffffff;
 }
 .container {
     max-width: 1230px;
@@ -106,6 +105,7 @@ body {
 // ----------------------- Main -----------------------
 
 .main {
+    color: #ffffff;
     .review-section {
         background-color: #1f1e28;
         padding: 80px 0px;
@@ -687,7 +687,7 @@ body {
             grid-template-columns: 1fr 1fr;
             align-items: center;
             .career-section-text {
-                width: 380px;
+                width: 480px;
                 p:nth-child(1) {
                     @include fonts.h3();
                 }
@@ -863,23 +863,36 @@ body {
             }
             .form-wrapper {
                 display: grid;
-                grid-template-rows: repeat(4, 1fr);
+                grid-template-rows: 1fr 1.4fr 1fr 1fr;
+                .form-input-wrapper {
+                    margin-bottom: 20px;
+                }
                 .form-input {
                     width: 490px;
                     height: 48px;
+                    padding: 0px 50px;
                     border-radius: 8px;
-                    margin-bottom: 20px;
                     @include fonts.b1();
                     color: #4d4d4d;
-                    padding: 0px 20px;
                 }
                 .form-input::placeholder {
                     @include fonts.b1();
                     color: #4d4d4d;
                 }
+                .form-phone-number-output {
+                    color: white;
+                    margin-top: 10px;
+                    line-height: 145%;
+                }
                 button {
                     @include mainButton();
                     width: 490px;
+                }
+                .iti__country-list {
+                    color: #4d4d4d;
+                }
+                .iti-mobile .iti__country-list {
+                    color: #4d4d4d;
                 }
             }
         }
@@ -889,6 +902,7 @@ body {
 // ----------------------- Footer -----------------------
 
 .footer {
+    color: #ffffff;
     .footer-wrapper {
         .contacts-block {
             padding: 41px 0px;
@@ -1808,6 +1822,9 @@ body {
                     .form-input {
                         width: 100%;
                         margin-bottom: 8px;
+                    }
+                    .iti {
+                        width: 100%;
                     }
                     button {
                         width: 100%;
