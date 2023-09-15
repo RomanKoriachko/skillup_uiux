@@ -386,64 +386,6 @@ body {
 .main .suitable-section .suitable-slider-mobile {
   display: none;
 }
-.main .speakers-section {
-  padding: 50px 0px;
-  background: #1f1e28;
-}
-.main .speakers-section .speakers-header {
-  text-align: center;
-  font-family: "Exo 2", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 43px;
-  margin-bottom: 50px;
-}
-.main .speakers-section .speakers-section-wrapper {
-  justify-content: space-between;
-  gap: 100px;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item {
-  text-align: center;
-  width: 50%;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item > img {
-  width: 100%;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text {
-  text-align: left;
-  margin-top: 50px;
-  padding-left: 60px;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-name {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  margin-bottom: 20px;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-theme {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 145%;
-  margin-bottom: 20px;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-description {
-  margin-bottom: 15px;
-  gap: 13px;
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-description .speakers-section-dot {
-  min-width: 12px;
-  height: 12px;
-  margin-top: 6px;
-  background-image: url(images/speakers-section-dot.svg);
-}
-.main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-text-item {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 145%;
-}
 .main .aspect-section {
   padding: 100px 0px;
 }
@@ -524,7 +466,7 @@ body {
   background-size: 100% 100%;
 }
 .main .plan-section .plan-section-wrapper .plan-section-item-1 > p:nth-child(1) {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 .main .plan-section .plan-section-wrapper .plan-section-item-2 {
   background-image: url(images/plan-item2-img.png);
@@ -541,7 +483,7 @@ body {
   background-size: 100% 100%;
 }
 .main .plan-section .plan-section-wrapper .plan-section-item-3 > p:nth-child(1) {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 .main .plan-section .plan-section-slider {
   display: none;
@@ -1235,9 +1177,6 @@ body {
   .main .review-section .review-section-content .review-section-content-img {
     margin-right: -15px;
   }
-  .main .speakers-section .speakers-section-wrapper {
-    gap: 50px;
-  }
   .main .aspect-section .aspect-section-content {
     gap: 150px;
   }
@@ -1246,7 +1185,7 @@ body {
   }
   .main .plan-section .plan-section-wrapper .plan-section-item {
     width: 350px;
-    height: 290px;
+    height: 310px;
     padding: 0px 43px;
     margin-left: -20px;
     margin-right: -20px;
@@ -1255,19 +1194,19 @@ body {
     padding: 0px 60px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-1 > p:nth-child(1) {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-2 {
     padding: 0px 63px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-2 > p:nth-child(1) {
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-3 {
     padding: 0px 70px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-3 > p:nth-child(1) {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
 @media (max-width: 992px) {
@@ -1412,18 +1351,6 @@ body {
   .main .suitable-section .suitable-slider-mobile {
     display: none;
   }
-  .main .speakers-section .speakers-section-wrapper {
-    flex-direction: column;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item {
-    width: 100%;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item > img {
-    width: 400px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text {
-    padding: 0px 50px;
-  }
   .main .aspect-section {
     padding: 50px 0px;
   }
@@ -1434,7 +1361,7 @@ body {
   .main .plan-section .plan-section-wrapper .plan-section-item {
     padding: 0px 40px;
     width: 300px;
-    height: 240px;
+    height: 260px;
     margin-right: -15px;
     margin-left: -15px;
   }
@@ -1452,13 +1379,13 @@ body {
     line-height: 145%;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-1 > p:nth-child(1) {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-2 {
     padding: 0px 45px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-2 > p:nth-child(1) {
-    margin-top: 6px;
+    margin-top: 11px;
   }
   .main .plan-section .plan-section-wrapper .plan-section-item-3 {
     padding: 0px 50px;
@@ -1543,9 +1470,12 @@ body {
     margin-left: 17px;
   }
 }
-@media (max-width: 829px) {
+@media (max-width: 770px) {
   .main .plan-section .plan-section-wrapper .plan-section-item-1 > p:nth-child(1) {
-    margin-top: 30px;
+    margin-top: 15px;
+  }
+  .main .plan-section .plan-section-wrapper .plan-section-item-3 > p:nth-child(1) {
+    margin-top: 20px;
   }
 }
 @media (max-width: 715px) {
@@ -1581,13 +1511,13 @@ body {
     display: block;
   }
   .main .plan-section .plan-section-slider .plan-section-item-1 > p:nth-child(1) {
-    margin-top: 45px;
+    margin-top: 25px;
   }
   .main .plan-section .plan-section-slider .plan-section-item-2 > p:nth-child(1) {
     margin-top: 10px;
   }
   .main .plan-section .plan-section-slider .plan-section-item-3 > p:nth-child(1) {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   .main .plan-section .plan-section-slider .slick-dots {
     bottom: 65px;
@@ -1783,49 +1713,6 @@ body {
     transform: translateX(-50%);
     width: 94%;
   }
-  .main .speakers-section {
-    padding-top: 48px;
-    padding-bottom: 0px;
-  }
-  .main .speakers-section .speakers-header {
-    text-align: left;
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 30px;
-  }
-  .main .speakers-section .speakers-section-wrapper {
-    gap: 30px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item > img {
-    width: 246px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text {
-    margin-top: 20px;
-    padding: 0px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-name {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-theme {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-description .speakers-section-dot {
-    margin-top: 4px;
-  }
-  .main .speakers-section .speakers-section-wrapper .speaker-item .speaker-text .speaker-text-item {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 145%;
-  }
   .main .aspect-section .aspect-section-content {
     gap: 32px;
   }
@@ -1864,10 +1751,10 @@ body {
     height: 240px;
   }
   .main .plan-section .plan-section-slider .plan-section-item-1 > p:nth-child(1) {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   .main .plan-section .plan-section-slider .plan-section-item-3 > p:nth-child(1) {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .main .plan-section .plan-section-slider .slick-dots {
     bottom: 55px;
@@ -2137,13 +2024,13 @@ body {
     margin-bottom: 30px;
   }
   .main .plan-section .plan-section-mobile-slider .plan-section-item-1 {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .main .plan-section .plan-section-mobile-slider .plan-section-item-2 {
     padding: 10px 50px;
   }
   .main .plan-section .plan-section-mobile-slider .plan-section-item-3 {
-    padding: 18px 55px;
+    padding: 10px 55px;
   }
   .main .plan-section .plan-section-mobile-slider .slick-dots {
     bottom: -40px;

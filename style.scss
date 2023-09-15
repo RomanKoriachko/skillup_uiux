@@ -296,52 +296,52 @@ body {
             display: none;
         }
     }
-    .speakers-section {
-        padding: 50px 0px;
-        background: #1f1e28;
-        .speakers-header {
-            text-align: center;
-            @include fonts.h2();
-            margin-bottom: 50px;
-        }
-        .speakers-section-wrapper {
-            justify-content: space-between;
-            gap: 100px;
-            .speaker-item {
-                text-align: center;
-                width: 50%;
-                > img {
-                    width: 100%;
-                }
-                .speaker-text {
-                    text-align: left;
-                    margin-top: 50px;
-                    padding-left: 60px;
-                    .speaker-name {
-                        @include fonts.h4();
-                        margin-bottom: 20px;
-                    }
-                    .speaker-theme {
-                        @include fonts.h6();
-                        margin-bottom: 20px;
-                    }
-                    .speaker-description {
-                        margin-bottom: 15px;
-                        gap: 13px;
-                        .speakers-section-dot {
-                            min-width: 12px;
-                            height: 12px;
-                            margin-top: 6px;
-                            background-image: url(images/speakers-section-dot.svg);
-                        }
-                    }
-                    .speaker-text-item {
-                        @include fonts.t6();
-                    }
-                }
-            }
-        }
-    }
+    // .speakers-section {
+    //     padding: 50px 0px;
+    //     background: #1f1e28;
+    //     .speakers-header {
+    //         text-align: center;
+    //         @include fonts.h2();
+    //         margin-bottom: 50px;
+    //     }
+    //     .speakers-section-wrapper {
+    //         justify-content: space-between;
+    //         gap: 100px;
+    //         .speaker-item {
+    //             text-align: center;
+    //             width: 50%;
+    //             > img {
+    //                 width: 100%;
+    //             }
+    //             .speaker-text {
+    //                 text-align: left;
+    //                 margin-top: 50px;
+    //                 padding-left: 60px;
+    //                 .speaker-name {
+    //                     @include fonts.h4();
+    //                     margin-bottom: 20px;
+    //                 }
+    //                 .speaker-theme {
+    //                     @include fonts.h6();
+    //                     margin-bottom: 20px;
+    //                 }
+    //                 .speaker-description {
+    //                     margin-bottom: 15px;
+    //                     gap: 13px;
+    //                     .speakers-section-dot {
+    //                         min-width: 12px;
+    //                         height: 12px;
+    //                         margin-top: 6px;
+    //                         background-image: url(images/speakers-section-dot.svg);
+    //                     }
+    //                 }
+    //                 .speaker-text-item {
+    //                     @include fonts.t6();
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
     .aspect-section {
         padding: 100px 0px;
         .aspect-section-content {
@@ -404,7 +404,7 @@ body {
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
                 > p:nth-child(1) {
-                    margin-top: 35px;
+                    margin-top: 20px;
                 }
             }
             .plan-section-item-2 {
@@ -421,7 +421,7 @@ body {
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
                 > p:nth-child(1) {
-                    margin-top: 32px;
+                    margin-top: 20px;
                 }
             }
         }
@@ -1000,11 +1000,11 @@ body {
                 }
             }
         }
-        .speakers-section {
-            .speakers-section-wrapper {
-                gap: 50px;
-            }
-        }
+        // .speakers-section {
+        //     .speakers-section-wrapper {
+        //         gap: 50px;
+        //     }
+        // }
         .aspect-section {
             .aspect-section-content {
                 gap: 150px;
@@ -1015,7 +1015,7 @@ body {
                 justify-content: center;
                 .plan-section-item {
                     width: 350px;
-                    height: 290px;
+                    height: 310px;
                     padding: 0px 43px;
                     margin-left: -20px;
                     margin-right: -20px;
@@ -1023,19 +1023,19 @@ body {
                 .plan-section-item-1 {
                     padding: 0px 60px;
                     > p:nth-child(1) {
-                        margin-top: 30px;
+                        margin-top: 25px;
                     }
                 }
                 .plan-section-item-2 {
                     padding: 0px 63px;
                     > p:nth-child(1) {
-                        margin-top: 5px;
+                        margin-top: 10px;
                     }
                 }
                 .plan-section-item-3 {
                     padding: 0px 70px;
                     > p:nth-child(1) {
-                        margin-top: 30px;
+                        margin-top: 25px;
                     }
                 }
             }
@@ -1165,20 +1165,20 @@ body {
                 display: none;
             }
         }
-        .speakers-section {
-            .speakers-section-wrapper {
-                flex-direction: column;
-                .speaker-item {
-                    width: 100%;
-                    > img {
-                        width: 400px;
-                    }
-                    .speaker-text {
-                        padding: 0px 50px;
-                    }
-                }
-            }
-        }
+        // .speakers-section {
+        //     .speakers-section-wrapper {
+        //         flex-direction: column;
+        //         .speaker-item {
+        //             width: 100%;
+        //             > img {
+        //                 width: 400px;
+        //             }
+        //             .speaker-text {
+        //                 padding: 0px 50px;
+        //             }
+        //         }
+        //     }
+        // }
         .aspect-section {
             padding: 50px 0px;
             .aspect-section-content {
@@ -1191,7 +1191,7 @@ body {
                 .plan-section-item {
                     padding: 0px 40px;
                     width: 300px;
-                    height: 240px;
+                    height: 260px;
                     margin-right: -15px;
                     margin-left: -15px;
                     > p:nth-child(1) {
@@ -1204,13 +1204,13 @@ body {
                 }
                 .plan-section-item-1 {
                     > p:nth-child(1) {
-                        margin-top: 40px;
+                        margin-top: 30px;
                     }
                 }
                 .plan-section-item-2 {
                     padding: 0px 45px;
                     > p:nth-child(1) {
-                        margin-top: 6px;
+                        margin-top: 11px;
                     }
                 }
                 .plan-section-item-3 {
@@ -1320,13 +1320,18 @@ body {
     }
 }
 
-@media (max-width: 829px) {
+@media (max-width: 770px) {
     .main {
         .plan-section {
             .plan-section-wrapper {
                 .plan-section-item-1 {
                     > p:nth-child(1) {
-                        margin-top: 30px;
+                        margin-top: 15px;
+                    }
+                }
+                .plan-section-item-3 {
+                    > p:nth-child(1) {
+                        margin-top: 20px;
                     }
                 }
             }
@@ -1372,7 +1377,7 @@ body {
                 display: block;
                 .plan-section-item-1 {
                     > p:nth-child(1) {
-                        margin-top: 45px;
+                        margin-top: 25px;
                     }
                 }
                 .plan-section-item-2 {
@@ -1382,7 +1387,7 @@ body {
                 }
                 .plan-section-item-3 {
                     > p:nth-child(1) {
-                        margin-top: 35px;
+                        margin-top: 30px;
                     }
                 }
                 .slick-dots {
@@ -1581,41 +1586,41 @@ body {
                 }
             }
         }
-        .speakers-section {
-            padding-top: 48px;
-            padding-bottom: 0px;
-            .speakers-header {
-                text-align: left;
-                @include fonts.mobileH1();
-                margin-bottom: 30px;
-            }
-            .speakers-section-wrapper {
-                gap: 30px;
-                .speaker-item {
-                    > img {
-                        width: 246px;
-                    }
-                    .speaker-text {
-                        margin-top: 20px;
-                        padding: 0px;
-                        .speaker-name {
-                            @include fonts.mobileH3();
-                        }
-                        .speaker-theme {
-                            @include fonts.mobileT3();
-                        }
-                        .speaker-description {
-                            .speakers-section-dot {
-                                margin-top: 4px;
-                            }
-                        }
-                        .speaker-text-item {
-                            @include fonts.mobileT9();
-                        }
-                    }
-                }
-            }
-        }
+        // .speakers-section {
+        //     padding-top: 48px;
+        //     padding-bottom: 0px;
+        //     .speakers-header {
+        //         text-align: left;
+        //         @include fonts.mobileH1();
+        //         margin-bottom: 30px;
+        //     }
+        //     .speakers-section-wrapper {
+        //         gap: 30px;
+        //         .speaker-item {
+        //             > img {
+        //                 width: 246px;
+        //             }
+        //             .speaker-text {
+        //                 margin-top: 20px;
+        //                 padding: 0px;
+        //                 .speaker-name {
+        //                     @include fonts.mobileH3();
+        //                 }
+        //                 .speaker-theme {
+        //                     @include fonts.mobileT3();
+        //                 }
+        //                 .speaker-description {
+        //                     .speakers-section-dot {
+        //                         margin-top: 4px;
+        //                     }
+        //                 }
+        //                 .speaker-text-item {
+        //                     @include fonts.mobileT9();
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
         .aspect-section {
             .aspect-section-content {
                 gap: 32px;
@@ -1648,12 +1653,12 @@ body {
                 }
                 .plan-section-item-1 {
                     > p:nth-child(1) {
-                        margin-top: 35px;
+                        margin-top: 30px;
                     }
                 }
                 .plan-section-item-3 {
                     > p:nth-child(1) {
-                        margin-top: 25px;
+                        margin-top: 15px;
                     }
                 }
                 .slick-dots {
@@ -1941,13 +1946,13 @@ body {
                     margin-bottom: 30px;
                 }
                 .plan-section-item-1 {
-                    padding-top: 20px;
+                    padding-top: 10px;
                 }
                 .plan-section-item-2 {
                     padding: 10px 50px;
                 }
                 .plan-section-item-3 {
-                    padding: 18px 55px;
+                    padding: 10px 55px;
                 }
                 .slick-dots {
                     bottom: -40px;
