@@ -111,7 +111,9 @@ for (let i = 0; i < dropdownMenu.length; i++) {
 // Sliders
 
 $(document).ready(function () {
-    $(".slider").slick({});
+    $(".slider").slick({
+        adaptiveHeight: true,
+    });
 });
 
 $(document).ready(function () {

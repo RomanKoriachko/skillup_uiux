@@ -113,6 +113,9 @@ body {
         .review-section-header {
             @include fonts.h4();
         }
+        .review-section-mobile-header {
+            display: none;
+        }
         .review-section-content {
             justify-content: space-between;
             align-items: center;
@@ -640,8 +643,17 @@ body {
                     content: "";
                 }
                 .slide {
-                    height: 600px;
                     margin: 0px 110px;
+                    display: flex;
+                    align-items: flex-start;
+                    > a {
+                        .slider-image-wrapper {
+                            width: 100%;
+                            > img {
+                                width: 100%;
+                            }
+                        }
+                    }
                 }
                 .slick-prev,
                 .slick-next {
@@ -1256,7 +1268,6 @@ body {
             .big-container {
                 .slider {
                     .slide {
-                        height: 500px;
                         margin: 0px 0px;
                     }
                     .slick-prev {
@@ -1443,8 +1454,14 @@ body {
         .review-section {
             padding-top: 0;
             margin-top: 40px;
+            .review-section-mobile-header {
+                display: block;
+                margin-top: 30px;
+                font-size: 24px;
+                line-height: 145%;
+            }
             .mobile-row {
-                display: grid;
+                display: none;
                 grid-template-columns: 1fr 1fr;
                 align-items: center;
                 margin-left: 9px;
@@ -1726,10 +1743,10 @@ body {
                 margin-left: 15px;
             }
             .big-container {
+                .slider-cover {
+                    display: none;
+                }
                 .slider {
-                    .slide {
-                        height: 230px;
-                    }
                     .slick-prev {
                         left: 16px;
                     }
