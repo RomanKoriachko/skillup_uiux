@@ -110,9 +110,17 @@ for (let i = 0; i < dropdownMenu.length; i++) {
 
 // Sliders
 
+// $(document).ready(function () {
+//     $(".slider").slick({
+//         adaptiveHeight: true,
+//     });
+// });
+
 $(document).ready(function () {
-    $(".slider").slick({
-        adaptiveHeight: true,
+    $(".slider-projects").slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
     });
 });
 
